@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('polices/Roboto/roboto-bold-webfont.eot');
+    src: url('polices/Roboto/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Roboto/roboto-bold-webfont.woff2') format('woff2'),
+         url('polices/Roboto/roboto-bold-webfont.woff') format('woff'),
+         url('polices/Roboto/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('polices/Roboto/roboto-italic-webfont.eot');
+    src: url('polices/Roboto/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Roboto/roboto-italic-webfont.woff2') format('woff2'),
+         url('polices/Roboto/roboto-italic-webfont.woff') format('woff'),
+         url('polices/Roboto/roboto-italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('polices/Roboto/roboto-regular-webfont.eot');
+    src: url('polices/Roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Roboto/roboto-regular-webfont.woff2') format('woff2'),
+         url('polices/Roboto/roboto-regular-webfont.woff') format('woff'),
+         url('polices/Roboto/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('polices/Shrikhand/shrikhand-regular-webfont.eot');
+    src: url('polices/Shrikhand/shrikhand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Shrikhand/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('polices/Shrikhand/shrikhand-regular-webfont.woff') format('woff'),
+         url('polices/Shrikhand/shrikhand-regular-webfont.svg#shrikhandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+    font-family: 'robotoregular', serif, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 375px;
+}
+#logo img
+{
+    height: 22px;
+}
