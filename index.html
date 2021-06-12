@@ -6,37 +6,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ohmyfood</title>
-        <script data-search-pseudo-elements defer src="https://pro.fontawesome.com/releases/v5.10.1/js/all.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/5339213886.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css" />
     </head>
 
     <body>
         <div id="bloc_page">
             <Header>
                 <!-- Logo ohmyfood -->
-                <div id="titre_principal">
-                    <div id="logo">
-                        <img src="images/logo/ohmyfood.png" alt="Logo de ohmyfood">
-                    </div>
-                </div>
+                <div class="logo">
+                    <!-- <img src="images/logo/ohmyfood.png" alt="Logo de ohmyfood"> -->
+                    <img
+                      src="images/logo/ohmyfood@2x.svg"
+                      alt="Logo de ohmyfood"
+                      class="logo__img"
+                    />
+                  </div>
 
-                <div id=search>
-                    <div id="map">
-                        <i class="fas fa-map-marker-alt"></i>
+                  <div class="search">
+                    <div class="search__map">
+                      <i class="fas fa-map-marker-alt search__map--logo"></i>
                     </div>
                     <form id="city-fr" method="post" action="#">
-                        <input type="text" name="city" id="city" placeholder="Paris, Belleville" />
+                      <input
+                        class="search__city"
+                        type="text"
+                        name="city"
+                        id="city"
+                        placeholder="Paris, Belleville"
+                      />
                     </form>
-                    <h1>
-                        Réservez le menu qui vous convient
-                    </h1>
-                    <p>
-                        Découvrez des restaurants d'exeption, sélectionnés par nos soins.
-                    </p>
-                    <div class="button">
-                        <input type="submit" value="Explorer nos restaurants" />
-                    </div>
-                </div>
+                  </div>
             </Header>
             <Main>
                 <section>
