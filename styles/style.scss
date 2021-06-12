@@ -1,72 +1,115 @@
 @font-face {
-    font-family: "robotoregular";
-    src: url("../polices/roboro/roboto-regular-webfont.eot");
-    src: url("../polices/roboto/roboto-regular-webfont.eot?#iefix")
-        format("embedded-opentype"),
-      url("../polices/roboto/roboto-regular-webfont.woff2") format("woff2"),
-      url("../polices/roboto/roboto-regular-webfont.woff") format("woff"),
-      url("../polices/roboto/roboto-regular-webfont.svg#robotoregular")
-        format("svg");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-      font-family: "robotobold";
-      src: url("../polices/Roboto/roboto-bold-webfont.eot");
-      src: url("../polices/Roboto/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"),
-           url("../polices/Roboto/roboto-bold-webfont.woff2") format("woff2"),
-           url("../polices/') format('woff"),
-           url("../polices/') format('svg");
-      font-weight: normal;
-      font-style: normal;
-  }
-  
-  body {
-    font-size: 16px;
-    font-family: "robotoregular", serif, sans-serif;
-    // color: #181818;
-  }
-  H1 {
-      font-size: 1.2rem;
-      font-family: "robotobold", serif, sans-serif;
-  }
-  
-  H2 {
-      font-size: 1.2rem;
-      font-family: "robotobold", serif, sans-serif;
-      color: #000000;
-  }
-  // }
-  // H3 {
-  // 	font-size: 1.2rem;
-  // }
-  
-  .bloc-page {
-    width: 375px;
-  }
+  font-family: "robotoregular";
+  src: url("../polices/roboro/roboto-regular-webfont.eot");
+  src: url("../polices/roboto/roboto-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../polices/roboto/roboto-regular-webfont.woff2") format("woff2"),
+    url("../polices/roboto/roboto-regular-webfont.woff") format("woff"),
+    url("../polices/roboto/roboto-regular-webfont.svg#robotoregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotobold";
+  src: url("../polices/Roboto/roboto-bold-webfont.eot");
+  src: url("../polices/Roboto/roboto-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../polices/Roboto/roboto-bold-webfont.woff2") format("woff2"),
+    url("../polices/') format('woff"), url("../polices/') format('svg");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  .logo {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    &__img {
-      height: 25px;
-    }
+body {
+  font-size: 16px;
+  font-family: "robotoregular", serif, sans-serif;
+  // color: #181818;
+}
+H1 {
+  font-size: 1.2rem;
+  font-family: "robotobold", serif, sans-serif;
+}
+
+H2 {
+  font-size: 1.2rem;
+  font-family: "robotobold", serif, sans-serif;
+  color: #000000;
+}
+// }
+// H3 {
+// 	font-size: 1.2rem;
+// }
+
+.bloc-page {
+  width: 375px;
+}
+
+.logo {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__img {
+    height: 25px;
   }
-  .search {
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #eaeaea;
+  margin: auto;
+  &__map {
+    margin: 15px;
+  }
+  &__city {
+    border: none;
+    background: none;
+  }
+}
+
+.reservation {
+  height: 330px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: #f6f6f6;
+  //   &__text{
+  margin: auto;
+
+  //       height: 30%;
+  //   }
+  text-align: center;
+
+  &__text {
+    height: 30%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 50px;
-    background-color: #eaeaea;
-    margin: auto;
-    &__map {
-      margin: 15px;
-    }
-    &__city {
-      border: none;
-      background: none;
-    }
+    padding-left: 20%;
+    padding-right: 20%;
   }
+  &__restau--discov {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 218px;
+    height: 52px;
+    border-radius: 26px;
+    background: linear-gradient(#ff79da 1%, #9356dc 99%);
+  }
+  &__button__explor {
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+  }
+}

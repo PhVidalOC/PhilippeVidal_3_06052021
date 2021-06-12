@@ -57,4 +57,42 @@ H2 {
 .search__city {
   border: none;
   background: none;
+}
+
+.reservation {
+  height: 330px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: #f6f6f6;
+  margin: auto;
+  text-align: center;
+}
+.reservation__text {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.reservation__restau--discov {
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.reservation__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 218px;
+  height: 52px;
+  border-radius: 26px;
+  background: linear-gradient(#ff79da 1%, #9356dc 99%);
+}
+.reservation__button__explor {
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
