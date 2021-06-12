@@ -187,6 +187,7 @@ padding: 1rem;
 }
 .restaurant {
 	width: 100%;
+    margin-bottom: 1rem;
 }
 
 .restau {
@@ -307,4 +308,32 @@ padding: 1rem;
 		}
 	}
 
+}
+
+footer {
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	padding-left: 15px;
+    padding-bottom: 1rem;
+}
+.footer-logo {
+    height: 18px;
+    padding-top: 15px;	
+    filter: invert(100%);
+}
+.liste {
+	list-style: none;
+	list-style-position: outside;
+	padding: 0;
+    &__ustensils{
+        font-size: 15px;
+    }
+    &__hands{
+        font-size: 10px;
+    }
+}
+.footer_text a{
+    color: #ffffff;
+    text-decoration: none;
 }
