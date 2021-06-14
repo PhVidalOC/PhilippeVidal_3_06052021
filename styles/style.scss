@@ -25,7 +25,7 @@ body {
   font-size: 16px;
   font-family: "robotoregular", serif, sans-serif;
   // color: #181818;
-//   margin: 0.5rem;
+  //   margin: 0.5rem;
 }
 H1 {
   font-size: 1.2rem;
@@ -73,92 +73,105 @@ H2 {
 }
 
 .reservation {
-  height: 330px;
+  //   height: 330px;
   display: flex;
-  justify-content: space-between;
-//   justify-items: center;
-//   flex-wrap: wrap;
+  //   justify-content: space-between;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
   background-color: #f6f6f6;
   //   &__text{
-//   margin: auto;
+  //   margin: auto;
 
   //       height: 30%;
   //   }
   text-align: center;
 
   &__text {
-    height: 30%;
+    // width: 230px;
+    // height: 30%;
     display: flex;
     justify-content: center;
-    // padding-left: 20%;
-    // padding-right: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    &--text {
+      margin-top: 1rem;
+	  margin-bottom: 1rem;
+    }
   }
   &__restau__discov {
-    display: flex;
-    justify-content: center;
-    // padding-left: 10%;
-    // padding-right: 10%;
-  }
-//   &__button {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 218px;
-//     height: 52px;
-//     border-radius: 26px;
-//     background: linear-gradient(#ff79da 1%, #9356dc 99%);
-//   }
-//   &__button__explor {
-//     color: #ffffff;
-//     border: none;
-//     text-decoration: none;
-//   }
-}
-.button-box {
-	display: flex;
-	justify-content: center;
-	&__button {
-	  height: 3.6rem;
-	  width: 215px;
-	  border-radius: 1.8rem;
-	  border-style: none;
-	  border-color: transparent;
-	  margin-top: 2rem;
-	  margin-bottom: 2rem;
-	  font-size: 1.2rem;
-	  font-family: "robotoregular";
-	  text-align: center;
-	  color: #fff;
-	  background: linear-gradient(180deg, #ff79da, #9356dc);
-	  box-shadow: 3px 3px 15px 5px #c9c9c9;
-	  cursor: pointer;
-  	   
-	  &:hover {
-		background: linear-gradient(180deg, #ff79da, #9356dc);
-		opacity: 0.7;
-		box-shadow: 3px 3px 25px 15px #c9c9c9;
-		opacity: 1;
-	  }
+    //   width: 350px;
+    // display: flex;
+    // justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+	&--text{
+		margin-top: .5rem;
 	}
   }
+  //   &__button {
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  //     width: 218px;
+  //     height: 52px;
+  //     border-radius: 26px;
+  //     background: linear-gradient(#ff79da 1%, #9356dc 99%);
+  //   }
+  //   &__button__explor {
+  //     color: #ffffff;
+  //     border: none;
+  //     text-decoration: none;
+  //   }
+}
+.button-box {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2rem;
+  &__button {
+    height: 3.2rem;
+    //   width: 215px;
+    border-radius: 1.6rem;
+    border-style: none;
+    border-color: transparent;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    font-family: "robotoregular";
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(180deg, #ff79da, #9356dc);
+    box-shadow: 3px 3px 5px  #c9c9c9;
+    cursor: pointer;
 
+    &:hover {
+      background: linear-gradient(180deg, #ff79da, #9356dc);
+      opacity: 0.7;
+      box-shadow: 3px 3px 25px  #c9c9c9;
+    //   opacity: 1;
+    }
+  }
+}
 
 .sub-title {
-	padding: .5rem 0 .5rem 0;
-  }
+  padding: 0.5rem 0 0.5rem 0;
+}
 
 .function {
   // width: 100%;
-    padding-left: 0.25rem;
+  padding-left: 0.25rem;
   // width: 335px;
   display: flex;
   flex-wrap: wrap;
   // align-content: center;
   justify-content: space-between;
-    &__sub-title {
+  &__sub-title {
     margin-top: 2rem;
-  //     padding: 0 0 0 0;
-    }
+    //     padding: 0 0 0 0;
+  }
   &__choice {
     width: 325px;
     height: 75px;
@@ -217,7 +230,7 @@ H2 {
   padding: 0.5rem;
 }
 .restaurant {
-//   width: 100%;
+  //   width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -275,7 +288,7 @@ H2 {
   color: #181818;
 
   &__infos {
-    padding: .75rem;
+    padding: 0.75rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
