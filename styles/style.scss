@@ -96,7 +96,7 @@ H2 {
     margin-right: 20%;
     &--text {
       margin-top: 1rem;
-	  margin-bottom: 1rem;
+      margin-bottom: 1rem;
     }
   }
   &__restau__discov {
@@ -105,9 +105,9 @@ H2 {
     // justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
-	&--text{
-		margin-top: .5rem;
-	}
+    &--text {
+      margin-top: 0.5rem;
+    }
   }
   //   &__button {
   //     display: flex;
@@ -139,19 +139,20 @@ H2 {
     margin-bottom: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    font-size: 1rem;
-    font-family: "robotoregular";
+    font-size: 16px;
+    font-family: "robotobold";
+    // font-weight: lighter;
     text-align: center;
     color: #fff;
     background: linear-gradient(180deg, #ff79da, #9356dc);
-    box-shadow: 3px 3px 5px  #c9c9c9;
+    box-shadow: 3px 3px 5px #c9c9c9;
     cursor: pointer;
 
     &:hover {
       background: linear-gradient(180deg, #ff79da, #9356dc);
       opacity: 0.7;
-      box-shadow: 3px 3px 25px  #c9c9c9;
-    //   opacity: 1;
+      box-shadow: 3px 3px 25px #c9c9c9;
+      //   opacity: 1;
     }
   }
 }
@@ -229,8 +230,14 @@ H2 {
   margin-top: 1rem;
   padding: 0.5rem;
 }
+.restaurants{
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 .restaurant {
-  //   width: 100%;
+  width: 350px;
   margin-bottom: 1rem;
 }
 

@@ -100,8 +100,8 @@ H2 {
   margin-bottom: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  font-size: 1rem;
-  font-family: "robotoregular";
+  font-size: 16px;
+  font-family: "robotobold";
   text-align: center;
   color: #fff;
   background: linear-gradient(180deg, #ff79da, #9356dc);
@@ -182,7 +182,15 @@ H2 {
   padding: 0.5rem;
 }
 
+.restaurants {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .restaurant {
+  width: 350px;
   margin-bottom: 1rem;
 }
 
