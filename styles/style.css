@@ -62,39 +62,45 @@ H2 {
 .reservation {
   height: 330px;
   display: flex;
-  justify-content: space-around;
-  justify-items: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: #f6f6f6;
-  margin: auto;
   text-align: center;
 }
 .reservation__text {
   height: 30%;
   display: flex;
   justify-content: center;
-  padding-left: 20%;
-  padding-right: 20%;
 }
-.reservation__restau--discov {
+.reservation__restau__discov {
   display: flex;
   justify-content: center;
-  padding-left: 10%;
-  padding-right: 10%;
 }
-.reservation__button {
+
+.button-box {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 218px;
-  height: 52px;
-  border-radius: 26px;
-  background: linear-gradient(#ff79da 1%, #9356dc 99%);
 }
-.reservation__button__explor {
-  color: #ffffff;
-  border: none;
-  text-decoration: none;
+.button-box__button {
+  height: 3.6rem;
+  width: 215px;
+  border-radius: 1.8rem;
+  border-style: none;
+  border-color: transparent;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-family: "robotoregular";
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(180deg, #ff79da, #9356dc);
+  box-shadow: 3px 3px 15px 5px #c9c9c9;
+  cursor: pointer;
+}
+.button-box__button:hover {
+  background: linear-gradient(180deg, #ff79da, #9356dc);
+  opacity: 0.7;
+  box-shadow: 3px 3px 25px 15px #c9c9c9;
+  opacity: 1;
 }
 
 .sub-title {
@@ -103,11 +109,15 @@ H2 {
 
 .function {
   padding-left: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .function__sub-title {
   margin-top: 2rem;
 }
 .function__choice {
+  width: 325px;
   height: 75px;
   display: flex;
   align-items: center;
