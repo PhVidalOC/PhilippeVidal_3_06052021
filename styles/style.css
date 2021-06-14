@@ -15,7 +15,6 @@
 body {
   font-size: 16px;
   font-family: "robotoregular", serif, sans-serif;
-  margin: 0.5rem;
 }
 
 H1 {
@@ -98,12 +97,15 @@ H2 {
   text-decoration: none;
 }
 
-.function {
-  width: 100%;
+.sub-title {
+  padding: 0.5rem 0 0.5rem 0;
 }
-.function__title {
-  margin: 60px 0 35px 0;
-  padding: 0 0 0 0;
+
+.function {
+  padding-left: 0.25rem;
+}
+.function__sub-title {
+  margin-top: 2rem;
 }
 .function__choice {
   height: 75px;
@@ -137,7 +139,7 @@ H2 {
   background: #f5edff;
   box-shadow: 0 0 30px #dedada;
 }
-.function__choice:hover .function__choic__icon {
+.function__choice:hover .function__choice__icon {
   color: #9356dc;
 }
 .function__choice:hover .function__choice__menu__text--txt {
@@ -145,10 +147,6 @@ H2 {
 }
 .function__choice:hover .function__choice__icon {
   color: #9356dc;
-}
-
-.sub-title {
-  padding: 1.5rem 0 1.5rem 0;
 }
 
 .restaurant-card {
@@ -160,11 +158,10 @@ H2 {
 #restaurants {
   background-color: #f6f6f6;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .restaurant {
-  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -208,7 +205,7 @@ H2 {
   color: #181818;
 }
 .card__infos {
-  padding: 15px;
+  padding: 0.75rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
