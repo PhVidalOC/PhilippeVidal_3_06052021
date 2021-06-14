@@ -148,7 +148,7 @@ H2 {
 }
 
 .sub-title {
-  padding: 60px 0 25px 0;
+  padding: 1.5rem 0 1.5rem 0;
 }
 
 .restaurant-card {
@@ -264,7 +264,6 @@ H2 {
 }
 
 footer {
-  width: 100%;
   background-color: #000000;
   color: #ffffff;
   padding-left: 15px;
