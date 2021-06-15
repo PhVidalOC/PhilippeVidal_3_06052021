@@ -235,7 +235,6 @@ H2 {
 .function__choice__text--txt {
   font-family: "robotobold";
   margin: 10px;
-  opacity: 0.7;
 }
 .function__choice:hover {
   background: #f5edff;
@@ -243,9 +242,6 @@ H2 {
 }
 .function__choice:hover .function__choice__icon {
   color: #9356dc;
-  opacity: 1;
-}
-.function__choice:hover .function__choice__text--txt {
   opacity: 1;
 }
 
