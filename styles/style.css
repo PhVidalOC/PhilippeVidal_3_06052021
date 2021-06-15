@@ -57,12 +57,13 @@ H2 {
 .search__city {
   border: none;
   background: none;
+  font-family: "robotobold";
+  font-size: 1rem;
 }
 
 .reservation {
   display: flex;
   justify-content: space-around;
-  align-content: center;
   flex-wrap: wrap;
   background-color: #f6f6f6;
   text-align: center;
@@ -87,9 +88,8 @@ H2 {
 
 .button-box {
   display: flex;
+  width: 100%;
   justify-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
   margin-bottom: 2rem;
 }
 .button-box__button {
@@ -110,8 +110,8 @@ H2 {
 }
 .button-box__button:hover {
   background: linear-gradient(180deg, #ff79da, #9356dc);
-  opacity: 0.7;
-  box-shadow: 3px 3px 25px #c9c9c9;
+  opacity: 0.8;
+  box-shadow: 3px 3px 0px 5px #c9c9c9;
 }
 
 .sub-title {
@@ -120,9 +120,9 @@ H2 {
 
 .function {
   padding-left: 0.25rem;
+  width: 350px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 .function__sub-title {
   margin-top: 2rem;
@@ -170,12 +170,6 @@ H2 {
   color: #9356dc;
 }
 
-.restaurant-card {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-}
-
 #restaurants {
   background-color: #f6f6f6;
   margin-top: 1rem;
@@ -187,6 +181,12 @@ H2 {
   justify-content: space-around;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.restaurant-card {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .restaurant {

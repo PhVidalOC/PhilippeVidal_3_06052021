@@ -69,22 +69,17 @@ H2 {
   &__city {
     border: none;
     background: none;
+    font-family: "robotobold";
+    font-size: 1rem;
   }
 }
 
 .reservation {
-  //   height: 330px;
   display: flex;
-  //   justify-content: space-between;
   justify-content: space-around;
-  align-content: center;
+  // align-content: center;
   flex-wrap: wrap;
   background-color: #f6f6f6;
-  //   &__text{
-  //   margin: auto;
-
-  //       height: 30%;
-  //   }
   text-align: center;
 
   &__text {
@@ -107,6 +102,7 @@ H2 {
     margin-right: 10%;
     &--text {
       margin-top: 0.5rem;
+      // font-size: 1.2rem;
     }
   }
   //   &__button {
@@ -126,9 +122,10 @@ H2 {
 }
 .button-box {
   display: flex;
+  width: 100%;
   justify-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  // margin-left: 15%;
+  // margin-right: 15%;
   margin-bottom: 2rem;
   &__button {
     height: 3.2rem;
@@ -150,9 +147,8 @@ H2 {
 
     &:hover {
       background: linear-gradient(180deg, #ff79da, #9356dc);
-      opacity: 0.7;
-      box-shadow: 3px 3px 25px #c9c9c9;
-      //   opacity: 1;
+      opacity: 0.8;
+      box-shadow: 3px 3px 0px 5px #c9c9c9;
     }
   }
 }
@@ -162,13 +158,12 @@ H2 {
 }
 
 .function {
-  // width: 100%;
   padding-left: 0.25rem;
-  // width: 335px;
+  width: 350px;
   display: flex;
   flex-wrap: wrap;
   // align-content: center;
-  justify-content: space-between;
+  // justify-content: space-between;
   &__sub-title {
     margin-top: 2rem;
     //     padding: 0 0 0 0;
@@ -220,22 +215,24 @@ H2 {
   }
 }
 
-.restaurant-card {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-}
 #restaurants {
   background-color: #f6f6f6;
   margin-top: 1rem;
   padding: 0.5rem;
 }
-.restaurants{
-	display: flex;
-	justify-content: space-around;
-	justify-content: center;
-	flex-wrap: wrap;
+.restaurants {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+.restaurant-card {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
 .restaurant {
   width: 350px;
   margin-bottom: 1rem;
