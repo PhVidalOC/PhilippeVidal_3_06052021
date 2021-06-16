@@ -248,7 +248,6 @@ H2 {
 }
 .restaurants {
   display: flex;
-  justify-content: space-around;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -392,4 +391,12 @@ footer {
 .footer_text a {
   color: #ffffff;
   text-decoration: none;
+}
+
+@media all and (min-width: 701px) and (max-width: 1439px)
+{
+  .restaurant-card{
+    margin-left: 5%;
+    margin-right: 5%;
+  }   
 }

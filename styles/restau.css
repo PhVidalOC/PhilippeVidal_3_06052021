@@ -280,4 +280,11 @@ footer {
 .footer_text a {
   color: #ffffff;
   text-decoration: none;
+}
+
+@media all and (min-width: 701px) and (max-width: 1439px) {
+  .starter, .main, .dessert {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }/*# sourceMappingURL=restau.css.map */
