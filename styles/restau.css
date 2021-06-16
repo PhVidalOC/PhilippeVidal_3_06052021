@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "robotoregular";
+  src: url("../polices/roboro/roboto-regular-webfont.eot");
+  src: url("../polices/roboto/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../polices/roboto/roboto-regular-webfont.woff2") format("woff2"), url("../polices/roboto/roboto-regular-webfont.woff") format("woff"), url("../polices/roboto/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotobold";
+  src: url("../polices/Roboto/roboto-bold-webfont.eot");
+  src: url("../polices/Roboto/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../polices/Roboto/roboto-bold-webfont.woff2") format("woff2"), url("../polices/') format('woff"), url("../polices/') format('svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-size: 16px;
+  font-family: "robotoregular", serif, sans-serif;
+}
+
+H1 {
+  font-size: 1.2rem;
+  font-family: "robotobold", serif, sans-serif;
+}
+
+H2 {
+  font-size: 1.2rem;
+  font-family: "robotobold", serif, sans-serif;
+  color: #000000;
+}
+
+.logo {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo__img {
+  height: 25px;
+}
+
+.rear-container {
+  position: relative;
+  height: 20px;
+  cursor: pointer;
+}
+.rear-container--icon {
+  position: absolute;
+  bottom: 175%;
+  left: 5%;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-pict {
+  margin-bottom: -35px;
+  height: 240px;
+}
+
+.menu-pict--img {
+  width: 100%;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 4;
+}
+
+.restaurant,
+.mains,
+.button-box {
+  background-color: #eaeaea;
+}
+
+.card-restaurant {
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.restaurant {
+  padding-top: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2rem 2rem 0 0;
+  position: relative;
+  z-index: 8;
+  cursor: pointer;
+}
+.restaurant__name {
+  margin-left: 1rem;
+}
+
+.heartsContainer {
+  position: relative;
+  width: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+.heartsContainer--heart {
+  position: absolute;
+  top: 50%;
+  right: 125%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  transition: all 1s linear;
+}
+.heartsContainer--heart.empty {
+  opacity: 1;
+}
+.heartsContainer--heart.full {
+  opacity: 0;
+  background: linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-stroke-color: transparent;
+  -webkit-text-stroke-color: transparent;
+}
+.heartsContainer:hover .heartsContainer--heart.empty {
+  opacity: 0;
+}
+.heartsContainer:hover .heartsContainer--heart.full {
+  opacity: 1;
+}
+
+.mains {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.starter,
+.main,
+.dessert {
+  padding-bottom: 1rem;
+}
+
+.main__title {
+  padding-left: 12px;
+}
+
+.main__underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: #99e2d0;
+          text-decoration-color: #99e2d0;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+  text-decoration-thickness: 0.2rem;
+}
+
+.card {
+  width: 350px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 5px #f6f6f6;
+  overflow: hidden;
+  margin-top: 1rem;
+  cursor: pointer;
+  -webkit-animation: enter 1.5s ease-in-out both;
+          animation: enter 1.5s ease-in-out both;
+}
+.card__infos {
+  padding: 0 0 0 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+.card__infos--name {
+  font-size: 1.2rem;
+  font-family: "robotobold";
+  margin-top: 0.5rem;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card__infos--descr {
+  font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+  margin-bottom: 0.5rem;
+}
+.card__price {
+  padding: 0 15px 0 10px;
+  font-family: "robotobold";
+}
+.card__price--value {
+  margin-top: 0%;
+  margin-bottom: 0.5rem;
+}
+.card__checked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 73px;
+  max-width: 0;
+  overflow: hidden;
+  width: 60px;
+  background-color: #99e2d0;
+  transition: all 0.5s linear;
+}
+.card__checked--check {
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s linear;
+}
+.card:hover .card__checked {
+  max-width: 60px;
+}
+.card:hover .card__checked--check {
+  transform: rotateZ(360deg);
+}
+
+.button-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.button-box__button {
+  height: 3.2rem;
+  border-radius: 1.6rem;
+  border-style: none;
+  border-color: transparent;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 16px;
+  font-family: "robotobold";
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(180deg, #ff79da, #9356dc);
+  box-shadow: 3px 3px 5px #c9c9c9;
+  cursor: pointer;
+}
+.button-box__button:hover {
+  background: linear-gradient(180deg, #ff79da, #9356dc);
+  opacity: 0.8;
+  box-shadow: 3px 3px 0px 5px #c9c9c9;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-bottom: 1rem;
+}
+
+.footer-logo {
+  height: 18px;
+  padding-top: 15px;
+  filter: invert(100%);
+}
+
+.liste {
+  list-style: none;
+  list-style-position: outside;
+  padding: 0;
+}
+.liste__ustensils {
+  font-size: 15px;
+}
+.liste__hands {
+  font-size: 10px;
+}
+
+.footer_text a {
+  color: #ffffff;
+  text-decoration: none;
+}/*# sourceMappingURL=restau.css.map */
