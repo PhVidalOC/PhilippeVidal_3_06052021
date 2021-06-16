@@ -152,7 +152,7 @@ H2 {
     margin-right: 10%;
 
     &--text {
-      margin-top: 1rem;      // margin: auto;
+      margin-top: 1rem; // margin: auto;
     }
   }
 }
@@ -393,10 +393,9 @@ footer {
   text-decoration: none;
 }
 
-@media all and (min-width: 701px) and (max-width: 1439px)
-{
-  .restaurant-card{
+@media all and (min-width: 701px) and (max-width: 1439px) {
+  .restaurant-card {
     margin-left: 5%;
     margin-right: 5%;
-  }   
+  }
 }

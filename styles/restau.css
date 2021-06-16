@@ -12,13 +12,20 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "shrikhandregular";
+  src: url("../polices/Shrikhand/shrikhand-regular-webfont.eot");
+  src: url("../polices/Shrikhand/shrikhand-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../polices/Shrikhand/shrikhand-regular-webfont.woff2") format("woff2"), url("../polices/Shrikhand/shrikhand-regular-webfont.woff") format("woff"), url("../polices/Shrikhand/shrikhand-regular-webfont.svg#shrikhandregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-size: 16px;
   font-family: "robotoregular", serif, sans-serif;
 }
 
 H1 {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-family: "robotobold", serif, sans-serif;
 }
 
@@ -36,7 +43,7 @@ H2 {
   align-items: center;
 }
 .logo__img {
-  height: 25px;
+  height: 2rem;
 }
 
 .rear-container {
@@ -94,6 +101,8 @@ H2 {
 }
 .restaurant__name {
   margin-left: 1rem;
+  font-family: "shrikhandregular";
+  font-weight: 400;
 }
 
 .heartsContainer {
@@ -105,9 +114,8 @@ H2 {
 .heartsContainer--heart {
   position: absolute;
   top: 50%;
-  right: 125%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 1.5rem;
   transition: all 1s linear;
 }
 .heartsContainer--heart.empty {
@@ -148,13 +156,7 @@ H2 {
 }
 
 .main__underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  -webkit-text-decoration-color: #99e2d0;
-          text-decoration-color: #99e2d0;
-  -webkit-text-decoration-style: solid;
-          text-decoration-style: solid;
-  text-decoration-thickness: 0.2rem;
+  border-bottom: 0.2rem solid #99e2d0;
 }
 
 .card {
@@ -283,7 +285,9 @@ footer {
 }
 
 @media all and (min-width: 701px) and (max-width: 1439px) {
-  .starter, .main, .dessert {
+  .starter,
+.main,
+.dessert {
     margin-left: 5%;
     margin-right: 5%;
   }
