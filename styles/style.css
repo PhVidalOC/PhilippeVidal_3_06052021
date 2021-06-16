@@ -146,8 +146,8 @@ H2 {
   flex-wrap: wrap;
   background-color: #f6f6f6;
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .reservation__text {
   display: flex;
@@ -164,13 +164,15 @@ H2 {
   margin-right: 10%;
 }
 .reservation__restau__discov--text {
-  margin: 1rem 0 2rem 0;
+  margin-top: 1rem;
 }
 
 .button-box {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .button-box__button {
   height: 3.2rem;

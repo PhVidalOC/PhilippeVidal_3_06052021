@@ -134,6 +134,7 @@ H2 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-bottom: 2rem;
 }
 
 .starter,
@@ -227,13 +228,14 @@ H2 {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .button-box__button {
   height: 3.2rem;
   border-radius: 1.6rem;
   border-style: none;
   border-color: transparent;
-  margin-bottom: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-size: 16px;
@@ -259,7 +261,7 @@ footer {
 
 .footer-logo {
   height: 18px;
-  padding-top: 15px;
+  padding-top: 2rem;
   filter: invert(100%);
 }
 
