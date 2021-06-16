@@ -238,9 +238,9 @@ H2 {
   border-radius: 1.6rem;
   border-style: none;
   border-color: transparent;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  font-size: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1rem;
   font-family: "robotobold";
   text-align: center;
   color: #fff;
