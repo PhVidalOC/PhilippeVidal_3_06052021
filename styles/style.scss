@@ -117,6 +117,7 @@ H2 {
   margin: auto;
   &__map {
     margin: 15px;
+    padding-left: 2rem;
   }
   &__city {
     border: none;
@@ -132,6 +133,8 @@ H2 {
   flex-wrap: wrap;
   background-color: #f6f6f6;
   text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 
   &__text {
     display: flex;
@@ -144,10 +147,13 @@ H2 {
     }
   }
   &__restau__discov {
+    // margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
+
     &--text {
-      margin-top: 0.5rem;
+      margin: 1rem 0 2rem 0;
+      // margin: auto;
     }
   }
 }
@@ -155,13 +161,13 @@ H2 {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
   &__button {
     height: 3.2rem;
     border-radius: 1.6rem;
     border-style: none;
     border-color: transparent;
-    margin-bottom: 1rem;
+    // margin-bottom: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     font-size: 16px;
@@ -279,7 +285,6 @@ H2 {
     height: 30px;
 
     &--text {
-
       margin: 0;
       position: relative;
       top: 20%;
@@ -330,7 +335,7 @@ H2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -125%);
-    font-size: 20px;
+    font-size: 1.5rem;
     transition: all 1s linear;
 
     &.empty {
@@ -370,7 +375,7 @@ footer {
 }
 .footer-logo {
   height: 18px;
-  padding-top: 15px;
+  padding-top: 2rem;
   filter: invert(100%);
 }
 .liste {
