@@ -211,7 +211,7 @@ H2 {
     text-overflow: ellipsis;
     flex: 1;
     &--name {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       font-family: "robotobold";
       margin-top: 8px;
       margin-bottom: 5px;
@@ -227,7 +227,7 @@ H2 {
     }
   }
   &__price {
-    padding: 0 20px 0 12px;
+    padding: 0 25px 0 25px;
     font-family: "robotobold";
     &--value {
       margin-top: 0%;
