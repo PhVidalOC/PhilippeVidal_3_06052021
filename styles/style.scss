@@ -83,6 +83,7 @@ body {
   }
 }
 
+
 H1 {
   font-size: 1.2rem;
   font-family: "robotobold", serif, sans-serif;
@@ -215,7 +216,8 @@ H2 {
       left: 0.5rem;
       background-color: #9356dc;
       color: #ffffff;
-      font-weight: bold;
+      font-family: "robotobold";
+      // font-weight: bold;
       border-radius: 50%;
       padding: 5px 12px;
       transform: translate(-50%);
@@ -310,13 +312,15 @@ H2 {
     flex: 1;
     &--name {
       text-decoration: none;
-      font-weight: bold;
+      font-family: "robotobold";
+      // font-weight: bold;
       margin: 5px 0 5px 0;
       overflow: hidden;
       text-overflow: ellipsis;
     }
     &--descr {
       text-decoration: none;
+      font-family: "robotoregular";
       overflow: hidden;
       text-overflow: ellipsis;
       margin: auto;
@@ -388,6 +392,7 @@ footer {
 }
 .footer_text a {
   color: #ffffff;
+  font-family: "robotoregular"; 
   text-decoration: none;
 }
 
