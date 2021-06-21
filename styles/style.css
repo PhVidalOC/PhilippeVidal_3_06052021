@@ -225,7 +225,7 @@ H2 {
   left: 0.5rem;
   background-color: #9356dc;
   color: #ffffff;
-  font-weight: bold;
+  font-family: "robotobold";
   border-radius: 50%;
   padding: 5px 12px;
   transform: translate(-50%);
@@ -233,7 +233,6 @@ H2 {
 .function__choice__icon {
   margin-left: 45px;
   margin-right: 15px;
-  opacity: 0.5;
 }
 .function__choice__text--txt {
   font-family: "robotobold";
@@ -319,13 +318,14 @@ H2 {
 }
 .card__infos--name {
   text-decoration: none;
-  font-weight: bold;
+  font-family: "robotobold";
   margin: 5px 0 5px 0;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .card__infos--descr {
   text-decoration: none;
+  font-family: "robotoregular";
   overflow: hidden;
   text-overflow: ellipsis;
   margin: auto;
@@ -391,6 +391,7 @@ footer {
 
 .footer_text a {
   color: #ffffff;
+  font-family: "robotoregular";
   text-decoration: none;
 }
 
