@@ -251,6 +251,10 @@ H2 {
   font-size: 20px;
   transition: all 0.5s linear;
 }
+.card__checked-big {
+  height: 90px;
+  overflow: hidden;
+}
 .card:hover .card__checked {
   max-width: 60px;
 }

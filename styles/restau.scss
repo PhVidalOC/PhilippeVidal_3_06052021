@@ -33,20 +33,20 @@
   font-style: normal;
 }
 
-@keyframes enter{
-  0%{
+@keyframes enter {
+  0% {
     transform: translateY(80px);
-    opacity: 0
+    opacity: 0;
   }
-  30%{
-    opacity: 0.1
+  30% {
+    opacity: 0.1;
   }
-  50%{
-    opacity: 0.5
+  50% {
+    opacity: 0.5;
   }
-  100%{
+  100% {
     transform: translateY(0);
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -234,6 +234,7 @@ H2 {
       margin-bottom: 0.5rem;
     }
   }
+
   &__checked {
     display: flex;
     align-items: center;
@@ -249,6 +250,11 @@ H2 {
       font-size: 20px;
       transition: all 0.5s linear;
     }
+  }
+  // new class
+  &__checked-big {
+    height: 90px;
+    overflow: hidden;
   }
   &:hover {
     .card__checked {
